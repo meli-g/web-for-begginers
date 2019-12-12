@@ -1,0 +1,29 @@
+main{
+    height: 500px;
+    width:100%;
+    margin-top: top 100px; ;
+}
+section {
+    width: 30%;
+    height: 700px;
+    float: left;
+    border: 1px solid black;
+    margin-left:2%;
+    margin-top:40px;
+}
+section p{
+    font-family: 'Solway', serif;
+    font-size: 24px;
+    padding: 10px
+}
+audio{
+    display:inline-block;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+video{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px
+}

@@ -1,0 +1,120 @@
+.body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-bar{
+    background-color:#01a99c;
+    height: 142px;
+    width: 100%;
+}
+.logo {
+    height:150px;
+
+}
+.nav-list{
+    list-style-type:none;
+     float:right;
+    padding-top:10px;
+
+}
+.list-item {
+    height:30px;
+    width:70px;
+    list-style-type: none;
+    color:white;
+    display:inline-block; 
+    margin-right:20px;
+    border:1px solid #0431c2;
+    border-radius: 20px;
+    padding: 3px;
+    text-align: center;
+}
+.list-item:hover{
+    border:solid 3px #5a44ac;
+    background-color: #7fbcee;
+    }
+.main{
+    height:700;
+    width: 300px;
+
+}
+
+/******* *******/
+
+.hero{
+    height: 500px;
+    width: 1000px;
+    background-image: url('../img/pup.jpg');
+    background-position:50% 50%;
+    margin-left: 355px;
+}
+
+a:hover{
+    
+    height: 3px;
+    width:3%;
+}
+.main-text{
+ height:77px;
+ width:150px;
+ background-color: rgb(0, 98, 128);
+ border:hsl(310, 100%, 50%) 3px solid;
+ position: absolute;
+ top:179px;
+ left:355px;
+text-align: center;
+
+
+}
+/*******section styles*******/
+
+.home-section{
+    height:700px;
+    width:100%;
+}
+.col{
+    height:470px;
+    width: 47%;
+    border: lightgreen 3px solid;
+    float:left;
+    margin-left:30px;
+}
+
+.puppies{
+    width: 100%;
+    display: block;
+    margin: auto; 
+}
+.sec-text p{
+    text-align:center;
+    margin:50px 20px 0px 20px;
+}
+
+/***********************footer style***********/
+.footer{
+height 25px;
+width: 100%;
+background-color:lightblue;
+}
+
+.button-input, .social, .copy,{
+    widows: 33%;
+;   float:left;
+    margin:auto;
+
+}
+.button-input, .social{
+    margin-top: 500px;
+}
+
+button{
+    padding: 7px;
+    height: 7px;
+    width:7%;
+}
+
+.copy{
+    display:inline;
+
+}
